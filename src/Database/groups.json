@@ -1,0 +1,44 @@
+[
+    {
+        "groupNumber": "1",
+        "name": "Grupo 1",
+        "content": "Aqui o grupo 1 vai colocar a linda descrição deles",
+        "photo": "Assets/group1.jpg",
+        "link": "/grupo1"
+    },
+    {
+        "groupNumber": "2",
+        "name": "Grupo 2",
+        "content": "Aqui o grupo 2 vai colocar a linda descrição deles",
+        "photo": "Assets/group2.jpg",
+        "link": "/grupo2"
+    },
+    {
+        "groupNumber": "3",
+        "name": "Grupo 3",
+        "content": "Aqui o grupo 3 vai colocar a linda descrição deles",
+        "photo": "Assets/group3.jpg",
+        "link": "/grupo3"
+    },
+    {
+        "groupNumber": "4",
+        "name": "Grupo 4",
+        "content": "Aqui o grupo 4 vai colocar a linda descrição deles",
+        "photo": "Assets/group4.jpg",
+        "link": "/grupo4"
+    },
+    {
+        "groupNumber": "5",
+        "name": "Grupo 5",
+        "content": "Aqui o grupo 5 vai colocar a linda descrição deles",
+        "photo": "Assets/group1.jpg",
+        "link": "/grupo5"
+    },
+    {
+        "groupNumber": "6",
+        "name": "Grupo 6",
+        "content": "Aqui o grupo 6 vai colocar a linda descrição deles",
+        "photo": "Assets/group1.jpg",
+        "link": "/grupo6"
+    }
+]
