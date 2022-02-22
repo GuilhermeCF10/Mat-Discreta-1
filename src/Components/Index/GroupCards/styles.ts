@@ -5,7 +5,7 @@ import { globalStyles } from "Global/globalStyles";
 export const Container = styled.a`
   padding: 2px 0px;
   width: 49%;
-  min-height: 180px;
+  min-height: 160px;
   margin: 10px 5px;
   display: flex;
   flex-direction: row;
