@@ -5,6 +5,7 @@ import React, { useState, createContext, useEffect, useContext } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 // Setting Main Auth Context
 interface GeneralContextData {
   authenticated: boolean;
@@ -27,6 +28,8 @@ export const GeneralProvider: React.FC = ({ children }) => {
     authenticated: false,
     modal: false,
   };
+
+  
 
   // States
   const [loading, setLoading] = useState(initialStateGeneral.loading);

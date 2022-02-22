@@ -11,6 +11,8 @@ import {
   ModalFormButton,
 } from "./styles";
 
+import { useNavigate } from "react-router-dom";
+
 import { useGeneral } from "Hooks/general";
 
 interface ModalProps {
@@ -19,12 +21,14 @@ interface ModalProps {
 
 const Modal: React.FC<ModalProps> = (props: any) => {
   const { makeAuthentication } = useGeneral();
+  const navigate = useNavigate();
 
   const [password, setPassword] = useState("");
 
   async function handleLogin(password: string) {
-    console.log(password)
+    console.log(password);
     await makeAuthentication(password);
+    navigate("/edit");
   }
 
   return (

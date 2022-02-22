@@ -14,4 +14,10 @@ export const Container = styled.a`
   background-color: ${globalStyles.paletteColors.darkLightWhite};
   text-decoration: none;
   color: #000;
+  transition: all 0.5s linear;
+
+  &:hover {
+    transform: scale(1.01);
+    background-color: ${globalStyles.paletteColors.white};
+  }
 `;

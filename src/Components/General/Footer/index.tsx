@@ -23,22 +23,23 @@ const Footer: React.FC = ({ navigation }: any, props: any) => {
 
         <Items>
           <Buttons>
-            <ButtonsText>Sobre Nós</ButtonsText>
+            <ButtonsText>Matemática Discreta I</ButtonsText>
           </Buttons>
           <Buttons>
-            <ButtonsText>Política de Privacidade</ButtonsText>
+            <ButtonsText>IPRJ</ButtonsText>
           </Buttons>
           <Buttons>
-            <ButtonsText>Termos de Uso</ButtonsText>
-          </Buttons>
-          <Buttons>
-            <ButtonsText>Contato</ButtonsText>
+            <ButtonsText>UERJ</ButtonsText>
           </Buttons>
         </Items>
 
         <CopyrightDiv>
+          <CopyrightBold>João Miguel Truong Dinh Tien</CopyrightBold>
+        </CopyrightDiv>
+
+        <CopyrightDiv>
           <CopyrightSpan>
-            © 2022 Tien. All Rights Reserved | Design By
+            © Copyright 2022. All Rights Reserved | Design By
             <CopyrightBold> Group 6</CopyrightBold>
           </CopyrightSpan>
         </CopyrightDiv>
